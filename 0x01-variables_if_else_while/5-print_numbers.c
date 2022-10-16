@@ -10,9 +10,9 @@
 
 int main(void)
 {
-	int dig = 0;
+	int dig;
 
-	for (dig = 0; dig <= 9; dig++)
+	for (dig = 0; dig <= 10; dig++)
 	{
 		printf("%d", dig);
 	}
