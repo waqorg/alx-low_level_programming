@@ -16,6 +16,7 @@ int main(void)
 	{
 		printf("%d \n", dig);
 	}
+	printf("\n");
 
 	return (0);
 }
