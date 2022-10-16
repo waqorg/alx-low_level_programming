@@ -12,9 +12,9 @@ int main(void)
 {
 	int dig;
 
-	for (dig = 0; dig <= 10; dig++)
+	for (dig = 0; dig <= 9 ; dig++)
 	{
-		printf("%d\n", dig);
+		printf("%d \n", dig);
 	}
 
 	return (0);
