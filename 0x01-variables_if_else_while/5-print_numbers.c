@@ -14,9 +14,8 @@ int main(void)
 
 	for (dig = 0; dig <= 10; dig++)
 	{
-		printf("%d", dig);
+		printf("%d\n", dig);
 	}
-	printf('\n');
 
 	return (0);
 }
