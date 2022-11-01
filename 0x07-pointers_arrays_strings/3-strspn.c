@@ -10,24 +10,24 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j, f;
+	unsigned int a = 0, b, t = 0;
 
-	i = 0;
-	while (s[i] != '\0')
+	while (accept[a])
 	{
-		j = 0;
-		f = 1; /*flag status*/
-		while (accept[j] != '\0')
+		b = 0;
+
+		while (s[b] != 32)
 		{
-			if (s[i] == accept[j])
+			if (accept[a] == s[b])
 			{
-				f = 0; /*success*/
-				break;
+				t++;
 			}
-			j++;
+
+			b++;
 		}
-		if (f == 1)
-			break;
-		i++;
+
+		a++;
 	}
+
+	return (t);
 }
