@@ -1,20 +1,5 @@
 # 0x14. C - Bit manipulation 
 
-![img](../.imgs/bit_manipulation.png)
-
-## Resource
-
-- [Number Systems Introduction](https://www.youtube.com/watch?v=FFDMzbrEXaE&t=2s)
-- [How to add and minus binary numbers](https://youtu.be/C5EkxfNEMjE)
-- [Binary ..](https://youtu.be/RrJXLdv1i74)
-- [Binary Addition and Subtraction With Negative Numbers](https://youtu.be/sJXTo3EZoxM)
-- [Bitwise Operators in C part 1](https://youtu.be/jlQmeyce65Q)
-- [Bitwise Operators in C part 2](https://youtu.be/8aFik6lPPaA)
-- [Bitwise Operators in C part 3](https://youtu.be/GhhJP6vpEA8)
-- [Bitwise Operators in C part 4](https://youtu.be/kYR5biY4OHw)
-- [Algorithms: Bit Manipulation](https://youtu.be/NLKQEOgBAnw)
-
----
 
 - Below are some notes on `~`, `>>` and `<<` bitwise operators.
 
@@ -41,8 +26,6 @@
 
 ## Tasks
 
-- All `*-main.c` are in the [main](./main) directory.
-
 ---
 
 0. [0](./0-binary_to_uint.c) : A function that converts a binary number to an `unsigned int`.
@@ -68,7 +51,6 @@
 	- You are not allowed to use arrays.
 	- You are not allowed to use `malloc`
 	- You are not allowed to use the `%` or `/` operators.
-	- If you are here for a solution for ALX, [checker version](https://github.com/iAmG-r00t/alx-low_level_programming/blob/48e0fcf3b39930ff4339b57e559115ad069f2775/0x14-bit_manipulation/1-print_binary.c).
 	- To enable debug mode that will print statements of what is happening add this `-D DEBUG` at the end of the compile line.
 	- Compile the code this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main/1-main.c 1-print_binary.c _putchar.c -o b`
 2. [10](./2-get_bit.c) : A function that returns the value of a bit at a given index.
@@ -92,13 +74,11 @@
 5. [101](./5-flip_bits.c) : A function that returns the number of bits you would need to flip to get from one number to another.
 	- Prototype: `unsigned int flip_bits(unsigned long int n, unsigned long int m);`
 	- You are not allowed to use the `%` or `/` operators.
-	- If you are here for a solution for ALX, [checker version](https://github.com/iAmG-r00t/alx-low_level_programming/blob/0377351dc5aa5ff7bf5f41869b69165c878d5a36/0x14-bit_manipulation/5-flip_bits.c).
 	- To enable debug mode that will print statements of what is happening add this `-D DEBUG` at the end of the compile line.
 	- Compile the code this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main/5-main.c 5-flip_bits.c -o f`
 6. [Endianness](./100-get_endianness.c) : A function that checks the endianness.
 	- Prototype: `int get_endianness(void);`
 	- Returns: `0` if big endian, `1` if little endian.
-	- Read more about it [here](https://cs-fundamentals.com/tech-interview/c/c-program-to-check-little-and-big-endian-architecture).
 	- Confirm your architecture version:
 		```sh
 		julien@ubuntu:~/0x14. Binary$ lscpu | head
@@ -115,6 +95,6 @@
 		julien@ubuntu:~/0x14. Binary$
 		```
 	- Compile the code this way: `gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main/100-main.c 100-get_endianness.c -o h`
-7. [Crackme3](./101-password) : Find the password for this [program](https://github.com/holbertonschool/0x13.c/blob/master/crackme3).
+7. [Crackme3](./101-password) 
 	- Get the file this way: `curl -fsSL https://raw.githubusercontent.com/holbertonschool/0x13.c/master/crackme3 -o crackme3`
 	- Will revisit this challenge and explain how to solve it.
