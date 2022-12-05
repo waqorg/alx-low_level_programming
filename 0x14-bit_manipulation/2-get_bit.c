@@ -27,7 +27,7 @@ void print_bin(unsigned long int number)
  *        to get from @n
  *
  * Return: the value of the bit or -1 if an
- *          error occured
+ *          error has occured
 */
 int get_bit(unsigned long int n, unsigned int index)
 {
