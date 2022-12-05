@@ -20,7 +20,7 @@ void print_bin(unsigned long int number)
 
 /**
  * set_bit - sets the value of a bit to 1 at a given
- *           index.
+ *           index...
  *
  * @n: number
  * @index: index to set the value of bit to 1
