@@ -30,7 +30,7 @@ unsigned int _strlen(const char *str)
 
 /**
  * binary_to_uint - a function that converts a binary number
- *                  to an unsigned int
+ *                  to an unsigned integer
  *
  * @b: string that contains 0 and 1 characters
  *
