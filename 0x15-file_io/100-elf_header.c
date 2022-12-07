@@ -40,7 +40,7 @@ void check_if_elf(unsigned char *e_ident)
 /**
  * print_magic - prints the magic numbers of the ELF file
  *
- * @e_ident: a pointer to an array of bytes specifies
+ * @e_ident: a pointer to an array of the bytes specifies
  *           how to interpret the file
  *
  * Return: nothing
