@@ -16,7 +16,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	if (filename == NULL) /*check if file is present*/
 		return (-1);
 
-	/*open file, with append option with write rights*/
+	/*open file with append option with write rights*/
 	file = open(filename, O_APPEND | O_WRONLY);
 	if (file == -1) /*check if file is present*/
 		return (-1);
